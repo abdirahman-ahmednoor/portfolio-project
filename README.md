@@ -8,7 +8,7 @@ This is wedsite that give my professional skills.
 
 ## Setup
 To access this project  on you local files, you can clone it using the following step:
-1. OPen you terminal.
+1. Open you terminal.
 2. use this command to clone, $ git clone https://github.com/abdirahman-ahmednoor/portfolio-project.git
 3. This will clone the repository  into your local folder.
 
@@ -21,4 +21,4 @@ To access this project  on you local files, you can clone it using the following
  View [live] (http://hamidamstafa.github.io/fev-band/)
 
  ## License
-This project is under the [MIT] (LIcense) license .
+This project is under the [MIT](License) license .
