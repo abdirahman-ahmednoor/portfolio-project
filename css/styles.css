@@ -1,3 +1,9 @@
-.structure{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.image{
+    text-align: center;
+}
+.name{
+    text-align: center;
+}
+.about{
+    font-family: 'Times New Roman', Times, serif;
 }
