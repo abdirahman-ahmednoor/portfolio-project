@@ -7,12 +7,19 @@
 .about{
     font-family: 'Times New Roman', Times, serif;
 }
-.skills{
-
-}
-.projects{
-    color: rgb(129, 108, 108);
-}
 .structure{
-    background:beige;
+    background:rgb(206, 206, 170);
+    font-size: large;
+}
+.about{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skill{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hobbies{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.project{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
