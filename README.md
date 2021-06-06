@@ -15,10 +15,10 @@ To access this project  on you local files, you can clone it using the following
 ## Programmes used
 1. HTML
 2. CSS
-3.Git
+3. Git
  
  ## Live setup
- View [live] https://github.com/abdirahman-ahmednoor/portfolio-project.git
+ View [live] (http://hamidamstafa.github.io/fev-band/)
 
  ## License
 This project is under the [MIT] (LIcense) license .
