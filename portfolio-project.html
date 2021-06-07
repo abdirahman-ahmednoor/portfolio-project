@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/styles.css">
-    <title> MY PORTFOLIO PROJECT</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio Project</title>
+    <link rel="stylesheet" href="css/stles.css">
 </head>
-
 <body>
-    <div class="structure" >
-    <div class="image">
-        <img src="profile.jpeg" width="140" alt="image of a profile"">
-    </div>
-    <div>
-        <h1 class="name">ABDIRAHMAN NOOR AHMED</h1>
-        <br>
-        <ul>
-            <li> <a href="#skills">SKILLS</a></li>
-            <li> <a href="#projects">PROJECTS</a></li>
-            <li> <a href="#hobbies">HOBBIES</a></li>
-        </ul>
-     </div>
- 
-     <div class="about">
-<h2>ABOUT ME</h2>
-<p> I am a tech enthusiast, I am a highschool graduate. I worked for acertain cyber cafe for about a half a year.</p>
-<p>I chosen to program since it was a voice interior me furthermore i needed to be not web customer but moreover a maker.</p>
-    </div>
-        <div class="skills">
-            <h2>SKILLS</h2>
-            <p>Over the past two to three I have gained some skills in :</p>
-            <ol>
-                <li>HTML</li>
-                <li>CSS</li>
+    <header>
+        <div>
+            <img src="profile.jpeg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navagation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#hobbies" class="nav__link">Hobbies</a></li>
+                <li class="nav__item"><a href="#about me" class="nav__link">About Me</a></li>
             </ul>
+        </nav>
+    </header>
+    <section class="intro" id="home">
+        <h1 class="section__title section__tittle--intro">
+            Hi, I am <strong>Abdirahman Noor</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+        <img src="profile.jpeg" alt="A picture of a profile">
+    </section>
+    <section class="skills" id="my-skills">
+        <h2 class="section__title section__title--skills">What I do</h2>
+        <div class="skills">
+            <div class="skills">
+                <h3>HTML</h3>
+                <P>HTML is a text file containing specific syntax, file and naming conventions that show the computer and the web server that it is in HTML and should be read as such. By applying these HTML conventions to a text file in virtually any text editor, a user can write and design a basic webpage, and then upload it to the internet.</P>
+
+
             </div>
-            <div>
-                <h2>HOBBIES</h2>
-                <ol>
-                    <li>Reading</li>
-                    <li>Playing Football</li>
-                </ol>
-                </div>
-        <div class="projects">
-    <h2>PROJECTS</h2>
-    <a href="https://github.com/abdirahman-ahmednoor/my-first-webpage.git">First webpage</a>
-    <p>It's my first webpage. It's how you uses HTML and CSS.</p>
-<br>
-    <p>copyright&copy;2021</p>
-   </div>
-            
-       </div>
+            <div class="skills">
+                <h3>CSS</h3>
+                <P>CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” While HTML is used to structure a web document (defining things like headlines and paragraphs, and allowing you to embed images, video, and other media), CSS comes through and specifies your document’s style—page layouts, colors, and fonts are all determined with CSS. Think of HTML as the foundation (every house has one), and CSS as the aesthetic choices (there’s a big difference between a Victorian mansion and a mid-century modern home).</P>
+
+
+            </div>
+            <div class="skills">
+                <h3>GIT</h3>
+                <P> Git is a version control (VCS) system for tracking changes to projects. Version control systems are also called revision control systems or source code management (SCM) systems. These projects can be large-scale programs like the Linux kernel, but they can also be smaller scale projects like your own R development, homework assignments, papers, or thesis. There are many other VCSs available (subversion and Mercurial are currently used extensively in opens source projects) but Git is one of the easier ones to set up. It is also well supported by the GitHub ecosystem, and UI has recently set up its own GitHub servise.</P>
+
+            </div>        
+        </div>
+
+        <a href="#projects" class="btn">Projects</a>
+    </section>
 </body>
 </html>
