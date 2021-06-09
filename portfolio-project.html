@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Protfolio Project</title>
-    <link rel="stylesheet" href="css/stles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <header>
-        <div>
-            <img src="profile.jpeg" alt="">
+        <div class="logo">
+        <img src="" alt="">
         </div>
-        <button class="nav-toggle" aria-label="toggle navagation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
+        
+        
             <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                <li class="nav__item"><a href="#hobbies" class="nav__link">Hobbies</a></li>
-                <li class="nav__item"><a href="#about me" class="nav__link">About Me</a></li>
+                <button><a href="#home">Home</a></button>
+                <button><a href="#skills">Skills</a></button>
+                <button><a href="#about me">About </a></button>
             </ul>
-        </nav>
     </header>
     <section class="intro" id="home">
-        <h1 class="section__title section__tittle--intro">
+        <h1 class="section__title section__title--intro">
             Hi, I am <strong>Abdirahman Noor</strong>
         </h1>
         <p class="section__subtitle section__subtitle--intro">Web Developer</p>
-        <img src="profile.jpeg" alt="A picture of a profile">
+        
+        <img src="images/profile.jpg" alt="A picture of a profile" class="intro__img">
     </section>
-    <section class="skills" id="my-skills">
-        <h2 class="section__title section__title--skills">What I do</h2>
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills" >My skills</h2>
         <div class="skills">
             <div class="skills">
+                <br>
+                <br>
+                <br>
+                <br>
+
                 <h3>HTML</h3>
                 <P>HTML is a text file containing specific syntax, file and naming conventions that show the computer and the web server that it is in HTML and should be read as such. By applying these HTML conventions to a text file in virtually any text editor, a user can write and design a basic webpage, and then upload it to the internet.</P>
 
@@ -52,8 +54,48 @@
 
             </div>        
         </div>
-
-        <a href="#projects" class="btn">Projects</a>
+        
     </section>
+
+    <section class="about-me" id="about me">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Software & Design Development.</p>
+
+        <div class="about-me__body">
+            <p>I am Highschool graduate.I have woorked in cyber cafe for half a year. I am a tech enthusiast, interested in Web Developement.</p>
+            <p>I have close to half a year struggle experience in the tech space. Morianga School, being able to offer multi-disciplinary learning acceleration pragramme, intrested me because i would get digital and professional skills training, and become part of the already trained proffesional in the country.</p>
+        </div>
+        
+        <img src="images/profile.jpg" alt="A picture of a profile." class="about-me__img">
+    </section>
+    <section class="my-projects" id="projects">
+    <h2 class="my-projects">My Projects</h2>
+    <p class="section__subtitle--projects">Selection of my range project.</p>
+
+    <div class="projects">
+        <a href="#" class="project-items"><img src="images/cloud.jpeg" alt= ""class project__img"></a>
+        <a href="#" class="project-items"><img src="images/computer.jpeg" alt= ""class project__img"></a>
+        <a href="#" class="project-items"><img src="images/cool.jpeg" alt= ""class project__img"></a>
+        <a href="#" class="project-items"><img src="images/data.jpeg" alt= ""class project__img"></a>
+        <a href="#" class="project-items"><img src="images/music.jpeg" alt= ""class project__img"></a>
+        <a href="#" class="project-items"><img src="images/plant.jpeg" alt= ""class project__img"></a>
+        
+
+    </div>
+    </section>
+    <footer class="footer">
+        <a href="abdirahmannoor09@hotmail.com" class="footer__link">abdirahmannoor09@hotmail.com</a>
+        <ul class="social-list">
+            <li><a href="#social-list__item" class="fa fa-facebook"></a></li>
+            <li><a href="#social-list__item" class="fa fa-twitter"></a></li>
+            <li><a href="#social-list__item" class="fa fa-instagram"></a></li>
+        </ul>
+        
+            
+
+        </div>
+    </footer>
+    
+
 </body>
 </html>
