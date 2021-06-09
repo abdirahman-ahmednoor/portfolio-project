@@ -18,7 +18,7 @@ To access this project  on you local files, you can clone it using the following
 3. Git
  
  ## Live setup
- View [live] (http://hamidamstafa.github.io/fev-band/)
+ View [live] https://github.com/abdirahman-ahmednoor/portfolio-project.git
 
  ## License
 This project is under the [MIT](License) license .
