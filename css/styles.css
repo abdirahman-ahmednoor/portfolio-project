@@ -1,29 +1,3 @@
- /* *,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-:root {
-    --ff-primary: 'Source Sans Pro',sans-serif;
-    --ff-secondary: 'Source San Pro',monospace;
-
-    --fw-reg: 300;
-    --ff-bold:900;
-
-    --clr-light: white;
-    --clr-black: black;
-    --clr-accent:cyan;
-    
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
-    
-    --bs:0.25em, 0.25em, 0.75em right(0,0,0,.25);
-} 
-*/
-
 body{
     background: light;
     color: black;
