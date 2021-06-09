@@ -1,4 +1,4 @@
-# Profolio Project 
+# Profolio project
 
 ## Author 
 Abdirahman Noor Ahmed 
